@@ -1,0 +1,267 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+/* THIS WILL CHANGE JUST TO header AFTER CHANGING THE TAGS IN HTML */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+
+    /* THIS COLOR COULD JUST BE #fff */
+    /* CHANGE COLOR TO #fff */
+    color: #ffffff;
+}
+
+/* THIS SELECTOR CAN JUST BE h1, SINCE THERE'S ONLY ONE ON THE PAGE */
+/* CHANGE SELECTOR TO JUST h1 */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* THIS SELECTOR CAN JUST BE .seo */
+/* CHANGE SELECTOR TO JUST .seo */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* THE div PROBABLY ISN'T NECESSARY */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* CAN JUST TARGET ul */
+/* CHANGE SELECTOR TO JUST ul */
+.header div ul {
+    list-style-type: none;
+}
+
+/* CAN JUST TARGET li */
+/* CHANGE SELECTOR TO JUST li */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    /* CHANGE COLOR TO #fff */
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* CONSIDER CHANGING THE SELECTOR TO SOMETHING MORE MEANINGFUL */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+
+    /* SEE IF THIS IMAGE CAN BE MOVED TO HTML */
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* CONSIDER CHANGING THE SELECTOR TO SOMETHING MORE MEANINGFUL */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* CONSIDER CHANGING THE SELECTOR TO SOMETHING MORE MEANINGFUL */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* THIS SECTION COULD PROBABLY BE CONSOLIDATED INTO ONE */
+/* 1. CHANGE TO .benefit-lead, .benefit-brand, and .benefit-cost */
+/* 2. SEE IF THIS SECTION COULD BE CONSOLIDATED EVEN FURTHER */
+.benefit-lead {
+    margin-bottom: 32px;
+
+    /* CHANGE COLOR TO #fff */
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+
+    /* CHANGE COLOR TO #fff */
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+
+    /* CHANGE COLOR TO #fff */
+    color: #ffffff;
+}
+
+/* ======================================================== */
+
+
+/* THIS SECTION COULD ALSO BE CONSOLIDATED INTO ONE */
+/* SINCE THERE'S ONLY ONE SET OF h3 ON THE PAGE, THIS COULD JUST BE h3 */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* ====================================================== */
+
+
+/* THIS SECTION COULD ALSO BE CONSOLIDATED INTO ONE */
+/* 1. TARGET AN img INSIDE OF .benefits (.benefits img) */
+/* 2. SEE IF THIS COULD BE CONSOLIDATED EVEN FURTHER */
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* =========================================================== */
+
+
+/* THIS SECTION COULD ALSO BE CONSOLIDATED INTO ONE */
+/* 1. CHANGE SELECTOR TO .content */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+
+    /* CHANGE COLOR TO #fff */
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+
+    /* CHANGE COLOR TO #fff */
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+
+    /* CHANGE COLOR TO #fff */
+    color: #ffffff;
+}
+
+/* ========================================================== */
+
+
+/* THIS SECTION COULD ALSO BE CONSOLIDATED INTO ONE */
+/* 1. TARGET img INSIDE OF .content (.content img) */
+/* 2. SEE IF IT CAN BE REFACTORED FURTHER */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* ====================================================== */
+
+
+/* THIS SECTION COULD ALSO BE CONSOLIDATED INTO ONE */
+/* 1. TARGET h2 INSIDE OF .content (.content h2) */
+/* 2. SEE IF IT CAN BE REFACTORED EVEN FURTHER */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* ======================================================= */
+
+/* THIS WILL PROBABLY JUST CHANGE TO footer */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* REFACTOR THIS AFTER CHANGING THE DIV INTO A FOOTER IN THE HTML */
+.footer h2 {
+    font-size: 20px;
+}
