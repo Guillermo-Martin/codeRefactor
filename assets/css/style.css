@@ -8,7 +8,6 @@ body {
     background-color: #d9dcd6;
 }
 
-/* THIS WILL CHANGE JUST TO header AFTER CHANGING THE TAGS IN HTML */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -25,9 +24,7 @@ h1 {
     color: #d9dcd6;
 }
 
-/* THE div PROBABLY ISN'T NECESSARY */
-/* AFTER CHANGING HTML TO header, IN CSS DELETE div, AND CHANGE TO header */
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -53,26 +50,21 @@ p {
     font-size: 16px;
 }
 
-/* CONSIDER CHANGING THE SELECTOR TO SOMETHING MORE MEANINGFUL */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-
-    /* SEE IF THIS IMAGE CAN BE MOVED TO HTML */
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
 
-/* CONSIDER CHANGING THE SELECTOR TO SOMETHING MORE MEANINGFUL */
-.float-left {
+.search-engine, .social-media {
     float: left;
     margin-right: 25px;
 }
 
-/* CONSIDER CHANGING THE SELECTOR TO SOMETHING MORE MEANINGFUL */
-.float-right {
+.online-rep {
     float: right;
     margin-left: 25px;
 }
@@ -94,35 +86,21 @@ p {
     background-color: #2589bd;
 }
 
-/* SEE IF THIS SECTION COULD BE REFACTORED EVEN FURTHER */
-
-
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #fff;
 }
-
-/* ======================================================== */
-
 
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* SEE IF THIS COULD BE REFACTORED EVEN FURTHER */
-
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-/* =========================================================== */
-
-
-/* SEE IF THIS COULD BE REFACTORED AGAIN */
-
 
 .search-engine-optimization, .online-reputation-management, .social-media-marketing  {
     margin-bottom: 20px;
@@ -133,30 +111,15 @@ h3 {
     color: #fff;
 }
 
-/* ========================================================== */
-
-/* 2. SEE IF IT CAN BE REFACTORED FURTHER */
-
 .content img {
     max-height: 200px;
 }
-
-/* ====================================================== */
-
-
-
-/* SEE IF IT CAN BE REFACTORED EVEN FURTHER */
 
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-
-/* ======================================================= */
-
-/* THIS WILL PROBABLY JUST CHANGE TO footer */
-/* CHANGE HTML TO footer TAGS */
 .footer {
     padding: 30px;
     clear: both;
@@ -164,7 +127,6 @@ h3 {
     text-align: center;
 }
 
-/* REFACTOR THIS AFTER CHANGING THE DIV INTO A FOOTER IN THE HTML */
 .footer h2 {
     font-size: 20px;
 }
