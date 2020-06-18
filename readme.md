@@ -1,5 +1,5 @@
 # Code Refactor
-https://guillermo-martin.github.io/homework1/
+https://guillermo-martin.github.io/codeRefactor/
 
 ## Description
 The app displays a simple website that was styled using HTML. A premade HTML and CSS file was made and the CSS had to be refactored.
